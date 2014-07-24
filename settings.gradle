@@ -1,0 +1,8 @@
+rootProject.name = 'HazelcastShowAndTell'
+
+include 'HazelcastMapAndQueueCluster'
+
+include 'HazelcastMapAndQueueClient'
+
+include 'HazelcastManagementCenter'
+

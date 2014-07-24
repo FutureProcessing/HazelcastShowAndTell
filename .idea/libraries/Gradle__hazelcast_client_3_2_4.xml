@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: hazelcast-client-3.2.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hazelcast/hazelcast-client/3.2.4/da085c1ac4eb69ed80661ef9c10b1cc92d5bb42c/hazelcast-client-3.2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hazelcast/hazelcast-client/3.2.4/194816102c3b3ad2421478498a6f706b45a2108a/hazelcast-client-3.2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

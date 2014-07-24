@@ -1,0 +1,7 @@
+dependencies {
+    compile group: 'org.eclipse.jetty', name: 'jetty-server', version: '9.2.1.v20140609'
+    compile group: 'org.eclipse.jetty', name: 'jetty-webapp', version: '9.2.1.v20140609'
+    compile group: 'org.eclipse.jetty', name: 'jetty-jsp', version: '9.2.1.v20140609'
+}
+
+mainClassName = 'HazelcastManagementCenter'

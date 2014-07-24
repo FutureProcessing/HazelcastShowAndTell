@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HazelcastManagementCenter/HazelcastManagementCenter.iml" filepath="$PROJECT_DIR$/HazelcastManagementCenter/HazelcastManagementCenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HazelcastMapAndQueueClient/HazelcastMapAndQueueClient.iml" filepath="$PROJECT_DIR$/HazelcastMapAndQueueClient/HazelcastMapAndQueueClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HazelcastMapAndQueueCluster/HazelcastMapAndQueueCluster.iml" filepath="$PROJECT_DIR$/HazelcastMapAndQueueCluster/HazelcastMapAndQueueCluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HazelcastShowAndTell.iml" filepath="$PROJECT_DIR$/HazelcastShowAndTell.iml" />
+    </modules>
+  </component>
+</project>
+
