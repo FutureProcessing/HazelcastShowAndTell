@@ -11,12 +11,9 @@ public class TokenizerMapper
 
     @Override
     public void map(String key, String numbersString, Context<Integer, Integer> context) {
-        // Just splitting the text by whitespaces
         StringTokenizer tokenizer = new StringTokenizer(numbersString);
 
-        // For every token in the text (=> per word)
         while (tokenizer.hasMoreTokens()) {
-            // Emit a new value in the mapped results
             Integer number = Integer.valueOf(tokenizer.nextToken());
             context.emit(number, ONE);
         }

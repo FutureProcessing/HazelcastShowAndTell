@@ -10,20 +10,20 @@ import java.util.concurrent.TimeUnit;
 
 public class AverageNoMapReduce {
 
-    private final static int NUMBER_OF_FILES = 20;
+    private final static int NUMBER_OF_FILES = 10;
     private static long timeElapsed;
 
     public static void main(String[] args) throws IOException {
         double allSum = 0;
         long count = 0;
         for (int fileNumber = 1; fileNumber <= NUMBER_OF_FILES; fileNumber++) {
-            List<Integer> allNumbers = loadNumbersFromFile(fileNumber);
+            List<Integer> allNumbersFromFile = loadNumbersFromFile(fileNumber);
 
             Stopwatch timer = Stopwatch.createStarted();
-            for (Integer number : allNumbers) {
+            for (Integer number : allNumbersFromFile) {
                 allSum += someOpOn(number);
             }
-            count += allNumbers.size();
+            count += allNumbersFromFile.size();
             timer.stop();
             timeElapsed += timer.elapsed(TimeUnit.MILLISECONDS);
         }
@@ -35,7 +35,8 @@ public class AverageNoMapReduce {
     private static int someOpOn(Integer number) {
         if (number > 500) {
             return (int) Math.sqrt(number);
-        } else if (number > 250) {
+        }
+        if (number > 250) {
             return (int) Math.atan(number);
         }
         return (int) Math.log(number);

@@ -1,9 +1,10 @@
+import java.io.Serializable;
 
-public class OpResult {
+public class NumberReductionResult implements Serializable {
         private int count;
         private int opResult;
 
-        public OpResult(int count, int opResult) {
+        public NumberReductionResult(int count, int opResult) {
             this.count = count;
             this.opResult = opResult;
         }

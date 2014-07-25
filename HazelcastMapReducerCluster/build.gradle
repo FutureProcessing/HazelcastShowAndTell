@@ -1,5 +1,6 @@
 dependencies {
     compile group: 'com.hazelcast', name: 'hazelcast', version: '3.2.4'
+    compile project(':HazelcastMapReducerCommon')
 }
 
 mainClassName = 'HazelcastMapReducerCluster'

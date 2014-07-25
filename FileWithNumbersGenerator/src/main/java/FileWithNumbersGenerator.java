@@ -5,8 +5,8 @@ import java.util.Random;
 
 public class FileWithNumbersGenerator {
 
-    private final static int NUMBERS_PER_FILE = 1000;
-    private final static int NUMBER_OF_FILES = 20;
+    private final static int NUMBERS_PER_FILE = 1000000;
+    private final static int NUMBER_OF_FILES = 10;
 
     public static void main(String[] args) throws IOException {
         for (int fileNumber = 1; fileNumber <= NUMBER_OF_FILES; fileNumber++) {
