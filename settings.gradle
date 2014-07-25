@@ -6,3 +6,13 @@ include 'HazelcastMapAndQueueClient'
 
 include 'HazelcastManagementCenter'
 
+include 'HazelcastMapReducerJob'
+
+include 'FileWithNumbersGenerator'
+
+include 'AverageNoMapReduce'
+
+include 'HazelcastMapReducerCluster'
+
+include 'HazelcastMapReducerCommon'
+

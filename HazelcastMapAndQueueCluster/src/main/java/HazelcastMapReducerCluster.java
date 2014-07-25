@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.Queue;
 
-public class HazelcastMapAndQueueCluster {
+public class HazelcastMapReducerCluster {
 
     public static void main(String[] args) throws IOException {
         Config cfg = new Config();

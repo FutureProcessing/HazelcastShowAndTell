@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AverageNoMapReduce/AverageNoMapReduce.iml" filepath="$PROJECT_DIR$/AverageNoMapReduce/AverageNoMapReduce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileWithNumbersGenerator/FileWithNumbersGenerator.iml" filepath="$PROJECT_DIR$/FileWithNumbersGenerator/FileWithNumbersGenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/HazelcastManagementCenter/HazelcastManagementCenter.iml" filepath="$PROJECT_DIR$/HazelcastManagementCenter/HazelcastManagementCenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/HazelcastMapAndQueueClient/HazelcastMapAndQueueClient.iml" filepath="$PROJECT_DIR$/HazelcastMapAndQueueClient/HazelcastMapAndQueueClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/HazelcastMapAndQueueCluster/HazelcastMapAndQueueCluster.iml" filepath="$PROJECT_DIR$/HazelcastMapAndQueueCluster/HazelcastMapAndQueueCluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HazelcastMapReducerCluster/HazelcastMapReducerCluster.iml" filepath="$PROJECT_DIR$/HazelcastMapReducerCluster/HazelcastMapReducerCluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HazelcastMapReducerCommon/HazelcastMapReducerCommon.iml" filepath="$PROJECT_DIR$/HazelcastMapReducerCommon/HazelcastMapReducerCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HazelcastMapReducerJob/HazelcastMapReducerJob.iml" filepath="$PROJECT_DIR$/HazelcastMapReducerJob/HazelcastMapReducerJob.iml" />
       <module fileurl="file://$PROJECT_DIR$/HazelcastShowAndTell.iml" filepath="$PROJECT_DIR$/HazelcastShowAndTell.iml" />
     </modules>
   </component>

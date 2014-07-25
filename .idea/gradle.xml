@@ -9,9 +9,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AverageNoMapReduce" />
+            <option value="$PROJECT_DIR$/FileWithNumbersGenerator" />
             <option value="$PROJECT_DIR$/HazelcastManagementCenter" />
             <option value="$PROJECT_DIR$/HazelcastMapAndQueueClient" />
             <option value="$PROJECT_DIR$/HazelcastMapAndQueueCluster" />
+            <option value="$PROJECT_DIR$/HazelcastMapReducerCluster" />
+            <option value="$PROJECT_DIR$/HazelcastMapReducerCommon" />
+            <option value="$PROJECT_DIR$/HazelcastMapReducerJob" />
           </set>
         </option>
       </GradleProjectSettings>
