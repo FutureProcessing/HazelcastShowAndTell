@@ -6,10 +6,10 @@ public class NumberCountCombinerFactory
 
     @Override
     public Combiner<Integer, Integer, Integer> newCombiner(Integer key) {
-        return new WordCountCombiner();
+        return new NumberCountCombiner();
     }
 
-    private class WordCountCombiner
+    private class NumberCountCombiner
             extends Combiner<Integer, Integer, Integer> {
 
         private int countOfTheSameKeyInTheChunk = 0;

@@ -7,15 +7,15 @@ public class NumberCountAndOpReducerFactory
 
     @Override
     public Reducer<Integer, Integer, NumberReductionResult> newReducer(Integer key) {
-        return new WordCountReducer(key);
+        return new NumberCountReducer(key);
     }
 
-    private class WordCountReducer
+    private class NumberCountReducer
             extends Reducer<Integer, Integer, NumberReductionResult> {
         private volatile int countOfTheSameKeyInTheChunk = 0;
         private Integer key;
 
-        public WordCountReducer(Integer key) {
+        public NumberCountReducer(Integer key) {
             this.key = key;
         }
 
